@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <section class="overskrift_place">
+        <div class="overskrift"><h1>Fagens dakta</h1></div>
+      </section>
+
+      <section>
+        <div class="content-wrap">
+          <h2>Heisann</h2>
+          <h3 class="info">
+            Dette er fagens dakta.<br />En side som gir deg dagens fakta, hver
+            dag på dysletisk norsk.
+          </h3>
+
+          <section class="container">
+            <div class="boble">
+              <img src="images/boble.jpg" alt="bilde av volkswagen boble" />
+            </div>
+
+            <div class="bildetekst">
+              <p>
+                Bilen som startet det hele for volkswagen var bobla. Bilen ble
+                bestilt av Adolf Hitler. Mannen som skulle lage den var
+                Ferdinand Porsche. Folkets bil eller folkevogn er et ganske godt
+                navn, synes du ikke?
+              </p>
+            </div>
+          </section>
+          <section>
+            <div>
+              <h3>Har du flere fakta?</h3>
+              <form action="fakta.php" method="GET">
+                <fieldset>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="30"
+                  ></textarea>
+                  <br />
+                  <input type="submit" value="Send inn" />
+                </fieldset>
+              </form>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

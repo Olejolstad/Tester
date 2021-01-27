@@ -1,0 +1,82 @@
+body {
+  margin: 30px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: lightslategray;
+  margin: -30px;
+  margin-bottom: 0px;
+}
+
+nav ul {
+  padding: 10px;
+  margin: 0px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+.overskrift_place {
+  text-align: center;
+}
+
+.content-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.bildetekst {
+  max-width: 300px;
+  padding-top: 20px;
+  text-align: left;
+}
+.container h3 {
+  text-align: center;
+}
+
+.boble {
+  position: relative;
+  min-width: 200px;
+  max-width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.boble img {
+  min-width: 50px;
+  height: 100%;
+  margin-left: -50px;
+}
+
+fieldset {
+  border: none;
+}
